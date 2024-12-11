@@ -7,7 +7,7 @@ hellow world - job :
 
 runs - on : ubuntu - latest
 
-steps
+steps 
 -name : check out repository code
 uses : action / checkout@v3
 - run : echo "$(cat hellowd_world.txt)"
